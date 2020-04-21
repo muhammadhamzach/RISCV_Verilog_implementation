@@ -1,5 +1,4 @@
 //			4 STAGED PIPELINED RISC-V WITH DATA HAZARD CONTROL VERILOG IMPLEMENTATION
-//				Group Members: Muhammad Hamza (173088), Abdul Hadi Zahid (174442)
 
 /*Instruction Memory is loaded from a file named iMem.txt at line 122 while dMemory is loaded from a file named dMem.txt at line 538.
 Both of these files with example code are attached with the verilog file.
