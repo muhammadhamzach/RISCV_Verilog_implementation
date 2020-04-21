@@ -1,0 +1,34 @@
+*********4 Staged Pipelined RISCV with Data Hazard Control Implementation in Verilog***********
+
+Group Members: Muhammad Hamza (173088)
+	       Abdul Hadi Zahid (174442)
+
+**Details**
+
+-> Verilog File Name: riscv.v
+-> Test Bench is located at line 48 with top module called in it at line 93.
+
+1. Instruction memory is loaded from a file name iMem.txt at line 122 with default location in E:\ drive. An example code written in hexadecimal is placed in the iMem.txt file. The details of the example code are written in the end.
+The instruction memory is located at path = riscv.iMem.ram
+
+2. Dmemory is loaded from a file name dMem.txt at line 538 with default location in E:\ drive. An example data written in hexadecimal is placed in the dMem.txt file. 
+The instruction memory is located at path = riscv.dMem.ram
+
+3. Register file is located at path = riscv.registerMem.registers
+
+
+*Instruction Memory Example Code*
+addi x1, x0, 1
+addi x2, x0, 2
+addi x3, x0, 3
+addi x4, x0, 4
+addi x5, x0, 5
+addi x6, x0, 6
+addi x7, x0, 7
+addi x8, x0, 8
+addi x9, x0, 9
+lw x2, 0(x1)
+and x4, x2, x5
+or x8, x2, x6
+add x9,x4,x2 
+
